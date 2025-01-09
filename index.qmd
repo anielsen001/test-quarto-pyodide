@@ -1,0 +1,23 @@
+---
+title: "test"
+format: html
+filters:
+  - pyodide
+---
+
+
+```{pyodide-python}
+
+# Welcome to Python!
+
+print("Hello, Quarto-Pyodide!")
+print("You've just entered the world of Python programming.")
+
+# Let's make a graph
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
+plt.ylabel('Magic Numbers')
+plt.show()
+
+# Feel free to add your own code below and have fun with Python!
+```
